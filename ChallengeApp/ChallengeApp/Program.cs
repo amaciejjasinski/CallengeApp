@@ -1,30 +1,21 @@
 ﻿// Zadanie domowe dzień 4.
 
-string name1 = "Monika";
-string name2 = "Maciej";
-int Age1 = 28;
-int Age2 = 16;
-string result1 = name1 + Age1;
-string result2 = name2 + Age2;
+string name = "Adam";
+int Age = 31;
+bool jestKobietą = true;
 
-    Console.WriteLine(result1);
 
-if (name1 == "Monika");
-
-{
-    Console.WriteLine("Jesteś kobietą");
+if (Age < 18 && jestKobietą == false)
+{ 
+ Console.WriteLine("Mężczyzna niepełnoletni");
 }
 
-if (Age1 < 30);
+else if (Age >= 18 && jestKobietą == false)
 {
-
-    Console.WriteLine("Poniżej 30 lat");
+Console.WriteLine("Mężczyzna pełnoletni");
 }
-    Console.WriteLine(result2);
-
-if (Age2 < 18);
-
+else if (Age > 30 && jestKobietą == true)
 {
-    Console.WriteLine("Niepełnoletni mężczyzna");
-    
+    Console.WriteLine("Kobieta po 30");
 }
+  
